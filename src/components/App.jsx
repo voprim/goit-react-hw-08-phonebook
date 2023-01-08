@@ -1,8 +1,8 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 import { lazy, useEffect } from 'react';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { selectIsRefreshing } from '../redux/auth/selectors';
+//import { selectIsRefreshing } from '../redux/auth/selectors';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { PrivateRoute } from './PrivateRoute';
