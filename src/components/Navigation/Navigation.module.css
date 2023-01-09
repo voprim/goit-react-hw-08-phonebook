@@ -1,0 +1,17 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav_link:hover, .nav_link:focus {
+    color: rgb(16, 249, 20);
+}
+.nav_link:active {
+    color: rgb(16, 249, 20);
+}
+

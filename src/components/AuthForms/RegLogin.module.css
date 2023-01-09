@@ -1,0 +1,26 @@
+.reg_login_form {
+    padding-top: 20px;
+        width: 320px;
+}
+.reg_login_form label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 16px;
+            font-size: 20px;
+        
+}
+.reg_login_form input {
+    padding: 8px;
+}
+.reg_login_form button {
+    margin-top: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+}
+
+.reg_button:hover, .reg_button:focus {
+    background-color: var(--accentColor);
+        color: #fff;
+        cursor: pointer;
+}
