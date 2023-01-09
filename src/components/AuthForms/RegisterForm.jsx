@@ -19,7 +19,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <div autoComplete="off" onSubmit={handleSubmit}>
+    <form autoComplete="off" onSubmit={handleSubmit}>
       <label>
         Username
         <input
@@ -50,6 +50,6 @@ export const RegisterForm = () => {
         />
       </label>
       <button type="submit">Register</button>
-    </div>
+    </form>
   );
 };
